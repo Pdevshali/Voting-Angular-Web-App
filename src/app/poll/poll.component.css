@@ -1,0 +1,26 @@
+.mr-4{
+    margin-right: 4px !important;
+}
+
+/* poll.component.css */
+.d-flex {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .options-list {
+    flex: 1;
+  }
+  
+  .pie-chart {
+    flex: 1;
+    max-width: 300px; /* Adjust as needed */
+  }
+
+
+  /* poll.component.css */
+.pie-chart canvas {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 300px; /* Adjust as needed */
+}
