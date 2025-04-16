@@ -73,14 +73,19 @@
                   "maximumError": "4kB"
                 }
               ],
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.prod .ts"
-                }
-              ],
-              "outputHashing": "all"
-            },
+             "fileReplacements": [
+            {
+                "replace": "src/environments/environment.ts",
+                "with": "src/environments/environment.prod.ts"
+            }
+        ],
+        "optimization": true,
+        "outputHashing": "all",
+        "sourceMap": false,
+        "namedChunks": false,
+        "aot": true,
+        "extractLicenses": true
+      },
             "development": {
               "optimization": false,
               "extractLicenses": false,
@@ -130,5 +135,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "d403aee1-30de-4fba-88a6-061a472268fe"
   }
 }

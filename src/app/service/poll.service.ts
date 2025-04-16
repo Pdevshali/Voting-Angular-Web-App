@@ -8,7 +8,7 @@ import { environment } from '../../environments/environment';
   providedIn: 'root'
 })
 export class PollService {
-  private baseUrl = environment.baseUrl;
+  private baseUrl = `${environment.baseUrl}/api/polls` ;
   // private baseLogUrl = 'http://localhost:8080/api/audit';
 
   constructor(private http: HttpClient) { }
